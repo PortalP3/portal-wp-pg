@@ -17,9 +17,7 @@ get_header(); ?>
 					<h1 class="title"><?php esc_attr_e('Error 404', 'creative-gem' ); ?></h1>
 				</header>
 				<div class="post-content">
-					<p><?php esc_attr_e('Oops! We couldn\'t find this Page.', 'creative-gem' ); ?></p>
-					<p><?php esc_attr_e('Please check your URL or use the search form below.', 'creative-gem' ); ?></p>
-					<?php get_search_form();?>
+					<p><?php esc_attr_e('Oops! Página no econtrada', 'creative-gem' ); ?></p>
 				</div><!--.post-content--><!--#error404 .post-->
 			</div>
 		</div>
