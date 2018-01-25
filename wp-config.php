@@ -18,16 +18,16 @@
 /** El nombre de tu base de datos de WordPress */
 
 
-define('DB_NAME', 'postgres');
+define('DB_NAME', getenv('DB_NAME'));
 
 /** Tu nombre de usuario de MySQL */
-define('DB_USER', 'postgres');
+define('DB_USER', getenv('DB_USER'));
 
 /** Tu contraseña de MySQL */
-define('DB_PASSWORD', 'postgres');
+define('DB_PASSWORD', getenv('DB_PASSWORD'));
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
-define('DB_HOST', 'localhost');
+define('DB_HOST', getenv('DB_HOST'));
 
 /** Codificación de caracteres para la base de datos. */
 define('DB_CHARSET', 'utf8');
@@ -44,14 +44,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('SECURE_AUTH_KEY', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('LOGGED_IN_KEY', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('NONCE_KEY', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('AUTH_SALT', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('SECURE_AUTH_SALT', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('LOGGED_IN_SALT', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('NONCE_SALT', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
+define('AUTH_KEY', getenv('AUTH_KEY')); // Cambia esto por tu frase aleatoria.
+define('SECURE_AUTH_KEY', getenv('SECURE_AUTH_KEY')); // Cambia esto por tu frase aleatoria.
+define('LOGGED_IN_KEY', getenv('LOGGED_IN_KEY')); // Cambia esto por tu frase aleatoria.
+define('NONCE_KEY', getenv('NONCE_KEY')); // Cambia esto por tu frase aleatoria.
+define('AUTH_SALT', getenv('AUTH_SALT')); // Cambia esto por tu frase aleatoria.
+define('SECURE_AUTH_SALT', getenv('SECURE_AUTH_SALT')); // Cambia esto por tu frase aleatoria.
+define('LOGGED_IN_SALT', getenv('LOGGED_IN_SALT')); // Cambia esto por tu frase aleatoria.
+define('NONCE_SALT', getenv('NONCE_SALT')); // Cambia esto por tu frase aleatoria.
 
 /**#@-*/
 
