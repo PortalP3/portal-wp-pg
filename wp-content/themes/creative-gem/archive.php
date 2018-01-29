@@ -20,7 +20,7 @@
 		<h1 class="postsby">
 			<span><?php the_archive_title(); ?></span>
 		</h1>
-		<?php the_archive_description( '<div class="taxonomy-description">', '</div>' ); ?>	
+		
 		<?php if ( have_posts() ) :
 			$creative_gem_full_posts = get_theme_mod('creative_gem_full_posts');
 			while ( have_posts() ) : the_post();
@@ -28,6 +28,7 @@
 			endwhile;
 			creative_gem_post_navigation();
 		endif; ?>
+		<?php the_archive_description( '<div class="taxonomy-description">', '</div>' ); ?>	
 	</div>
 	<?php get_sidebar(); ?>
 </div>
