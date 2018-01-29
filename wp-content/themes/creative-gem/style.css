@@ -2181,8 +2181,26 @@ footer .wp_review_tab_widget_content a {
     color: #D2D3C6;
 }
 
-.breadcrumb , .article #commentform textarea {
-    color: #D2D3C6;
+.upper-widgets-grid:nth-child(1){
+	background: url(http://portal-p3-mvp.herokuapp.com/wp-content/uploads/2018/01/feminismo-1.jpg);
+	min-height: 290px;
+	background-size: cover;
+}
+
+.upper-widgets-grid:nth-child(2){
+	background: url(http://portal-p3-mvp.herokuapp.com/wp-content/uploads/2018/01/free-internetm-1.jpg);
+	min-height: 290px;
+	background-size: cover;
+}
+
+.upper-widgets-grid:nth-child(3){
+	background: url(http://portal-p3-mvp.herokuapp.com/wp-content/uploads/2018/01/capitalismo-1.jpg);
+	min-height: 290px;
+	background-size: cover;
+}
+
+.upper-widgets-grid h2 {
+	padding-top: calc(40% - 20px)
 }
 /*-[ Tags ]---------------------------*/
 
