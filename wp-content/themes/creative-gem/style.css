@@ -639,9 +639,9 @@ body>header {
     float: left;
     width: 100%;
     z-index: 99;
-    background: #333;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     background-position: center;
+    background: url(http://portal-p3-mvp.herokuapp.com/wp-content/uploads/2018/01/bannerpp3.png);
     background-size: cover;
 }
 
@@ -942,7 +942,7 @@ span.sticky-post {
 }
 
 #content {
-    background: #fff;
+    background: #D2D3C6;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
     -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
     -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
