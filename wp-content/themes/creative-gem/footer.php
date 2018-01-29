@@ -37,8 +37,8 @@
 	<div class="container">
 		<div class="row" id="copyright-note">
 			<span class="footer-copyright-typography-design">
-			<?php echo esc_html('&copy; '.date_i18n(__('Y','creative-gem'))); ?> 
-			<?php bloginfo( 'name' ); ?>
+			Portal P3 - Abacaxi - Copyrights 
+			<?php echo date_i18n(__('Y','creative-gem')); ?> 
 	</span>
 </div>
 </div>
