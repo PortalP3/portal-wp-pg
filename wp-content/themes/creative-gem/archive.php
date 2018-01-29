@@ -28,7 +28,9 @@
 			endwhile;
 			creative_gem_post_navigation();
 		endif; ?>
-		<?php the_archive_description( '<div class="taxonomy-description">', '</div>' ); ?>	
+		<div class="post-content">
+        		<?php the_archive_description( '<div class="taxonomy-description">', '</div>' ); ?>	
+		</div>
 	</div>
 	<?php get_sidebar(); ?>
 </div>
