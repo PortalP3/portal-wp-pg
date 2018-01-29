@@ -25,6 +25,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     background-color: #D2D3C6;
+    font-family: Open Sans;
 }
 
 *,
@@ -603,6 +604,7 @@ textarea {
     margin: 0 auto;
     max-width: 100%;
     clear: both;
+    background-color: #341530;
 }
 
 #page,
@@ -943,6 +945,7 @@ span.sticky-post {
 
 #content {
     background: #D2D3C6;
+	color: #3E203D;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
     -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
     -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
@@ -1971,7 +1974,8 @@ footer .wp-post-image {
 }
 
 .archive .postsby span {
-    font-size: 28px;
+    color: #D2D3C6;
+    font-size: 40px;
     margin: 0;
     color: #000;
     text-align: center;
@@ -2165,7 +2169,21 @@ footer .wp_review_tab_widget_content a {
     color: #473636
 }
 
+.article h1, .article h2, .article h3, .article h4, .article h5, .article h6, .total-comments, .article th {
+    color: #361632;
+}
 
+.article a, .breadcrumb a, #commentform a {
+    color: #542189;
+}
+
+.breadcrumb a, .article #commentform textarea {
+    color: #D2D3C6;
+}
+
+.breadcrumb , .article #commentform textarea {
+    color: #D2D3C6;
+}
 /*-[ Tags ]---------------------------*/
 
 .tags {
