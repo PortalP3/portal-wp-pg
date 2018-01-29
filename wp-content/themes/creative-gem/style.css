@@ -24,6 +24,7 @@ body {
     color: #555555;
     margin: 0;
     overflow-x: hidden;
+    background-color: #D2D3C6;
 }
 
 *,
@@ -648,6 +649,7 @@ body>header {
     float: left;
     display: inline-block;
     width: 100%;
+    background-color: rgba(49,24,48,.7);
 }
 
 
@@ -1310,6 +1312,12 @@ a:active {
     padding: 0;
     margin: 0;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.28);
+}
+
+.site-branding .site-title, .site-branding .site-description {
+    color: #d2d3c6;
+    max-width: 500px;
+    margin: auto;
 }
 
 .buttons-wrapper {
@@ -3376,6 +3384,7 @@ img.custom-logo {
         position: relative;
         left: 0;
         transition: left 500ms ease;
+        background-color: #341530;
     }
     .mobile-menu-active .main-container {
         left: 300px;
