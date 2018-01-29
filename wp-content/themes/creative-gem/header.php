@@ -43,7 +43,15 @@
 
 						<div class="container clear">
 							<div class="site-branding">
-									<div class="site-title website-title"><?php bloginfo( 'name' ); ?></div>
+									<div class="site-title website-title">
+
+									<?php
+									if ( is_category() || is_single()) {
+										foreach((get_the_category()) as $category) { echo $category->cat_name . ' '; }
+									}else{									
+										 bloginfo( 'name' ); }
+								    ?>
+									</div>
 									<div class="site-description website-description"><?php bloginfo( 'description' ); ?></div>
 
 								<?php if ( get_theme_mod( 'header_left_button_text') ||  get_theme_mod( 'header_right_button_text') ) : ?>
