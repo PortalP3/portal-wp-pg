@@ -29,6 +29,9 @@
 			creative_gem_post_navigation();
 		endif; ?>
 
+	<?php
+	if ( get_the_archive_description() ) {
+	?>
 		<article class="post excerpt">
                <div class="post-blogs-container">
                  <div class="nothumbnail-post-content">
@@ -39,6 +42,7 @@
 				   </div>
 			</div>
 		</article>
+	<?php	} ?>
 	</div>
 	<?php get_sidebar(); ?>
 </div>
