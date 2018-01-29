@@ -90,7 +90,7 @@ get_header(); ?>
 								</div>
 								<!-- End Author Box -->
 								<?php }?>  
-								<?php comments_template( '', true ); ?>
+								<?php //comments_template( '', true ); ?>
 							</div>
 						</div>
 					<?php endwhile; ?>
