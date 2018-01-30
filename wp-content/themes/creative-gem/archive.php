@@ -33,6 +33,7 @@
 	if ( get_the_archive_description() ) {
 	?>
 		<article class="post excerpt">
+			<div class="article-image"></div>
                <div class="post-blogs-container">
                  <div class="nothumbnail-post-content">
 					 <h2 class="title"></h2>
