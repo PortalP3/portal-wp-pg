@@ -461,7 +461,7 @@ msgstr "%s (mes del año, por ejemplo 05.)"
 #. translators: %s: permalink structure tag
 #: wp-admin/options-permalink.php:234
 msgid "%s (Category slug. Nested sub-categories appear as nested directories in the URL.)"
-msgstr "%s (Slug de la categoría. Las subcategorías anidadas aparecen como directorios anidados en la URL.)"
+msgstr "%s (Slug de la temática. Las subtemáticas anidadas aparecen como directorios anidados en la URL.)"
 
 #. translators: %s: permalink structure tag
 #: wp-admin/options-permalink.php:218
@@ -848,11 +848,11 @@ msgstr "Importar entradas de un canal RSS."
 
 #: wp-admin/includes/import.php:212
 msgid "Import posts, pages, comments, custom fields, categories, and tags from a WordPress export file."
-msgstr "Importar entradas, páginas, comentarios, campos personalizados, categorías y etiquetas de un fichero de exportación de WordPress."
+msgstr "Importar entradas, páginas, comentarios, campos personalizados, temáticas y etiquetas de un fichero de exportación de WordPress."
 
 #: wp-admin/includes/import.php:176
 msgid "Convert existing categories to tags or tags to categories, selectively."
-msgstr "Convierte las categorías existentes a etiquetas o las etiquetas en categorías, de manera selectiva."
+msgstr "Convierte las temáticas existentes a etiquetas o las etiquetas en temáticas, de manera selectiva."
 
 #: wp-admin/includes/import.php:206
 msgid "Import posts &amp; media from Tumblr using their API."
@@ -2200,7 +2200,7 @@ msgstr "Puedes ver las entradas en una lista simple de títulos o con el extract
 #. translators: %s: default category
 #: wp-admin/edit-tags.php:548
 msgid "Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the category %s."
-msgstr "Borrar una categoría no hará que se borren sus entradas. Las entradas que solo estuvieran asignadas a la categoría borrada serán asignadas a la categoría %s."
+msgstr "Borrar una temática no hará que se borren sus entradas. Las entradas que solo estuvieran asignadas a la temática borrada serán asignadas a la temática %s."
 
 #. translators: %s: comment date
 #: wp-admin/edit-form-comment.php:98
@@ -2489,7 +2489,7 @@ msgstr "<a href=\"https://codex.wordpress.org/Dashboard_Screen\">Documentación 
 
 #: wp-admin/edit-tags.php:268
 msgid "<a href=\"https://codex.wordpress.org/Links_Link_Categories_Screen\">Documentation on Link Categories</a>"
-msgstr "<a href=\"https://codex.wordpress.org/Links_Link_Categories_Screen\">Documentación sobre categorías de enlaces</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Links_Link_Categories_Screen\">Documentación sobre temáticas de enlaces</a>"
 
 #: wp-admin/edit.php:228
 msgid "<a href=\"https://codex.wordpress.org/Posts_Screen\">Documentation on Managing Posts</a>"
@@ -2497,7 +2497,7 @@ msgstr "<a href=\"https://codex.wordpress.org/Posts_Screen\">Documentación sobr
 
 #: wp-admin/edit-tags.php:266
 msgid "<a href=\"https://codex.wordpress.org/Posts_Categories_Screen\">Documentation on Categories</a>"
-msgstr "<a href=\"https://codex.wordpress.org/Posts_Categories_Screen\">Documentación sobre categorías</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Posts_Categories_Screen\">Documentación sobre temáticas</a>"
 
 #: wp-admin/plugin-install.php:98
 msgid "<a href=\"https://codex.wordpress.org/Plugins_Add_New_Screen\">Documentation on Installing Plugins</a>"
@@ -3091,7 +3091,7 @@ msgstr "No probado con tu versión de WordPress"
 #: wp-admin/includes/class-wp-links-list-table.php:111
 #: wp-admin/includes/class-wp-posts-list-table.php:445
 msgid "Filter by category"
-msgstr "Filtrar por categoría"
+msgstr "Filtrar por temática"
 
 #. translators: %s: User's display name.
 #: wp-admin/includes/ajax-actions.php:3213
@@ -3156,7 +3156,7 @@ msgstr[1] "Todos <span class=\"count\">(%s)</span>"
 #. translators: %s: placeholder that must come at the start of the URL
 #: wp-admin/options-permalink.php:283
 msgid "If you like, you may enter custom structures for your category and tag URLs here. For example, using <code>topics</code> as your category base would make your category links like <code>%s/topics/uncategorized/</code>. If you leave these blank the defaults will be used."
-msgstr "Si quieres, puedes introducir aquí estructuras personalizadas para las URLs de etiqueta o categoría. Por ejemplo, usando <code>secciones</code> como categoría base hará que los enlaces de categorías sean algo como <code>%s/secciones/sin-categoria/</code>. Si dejas esto en blanco se usarán los ajustes por defecto."
+msgstr "Si quieres, puedes introducir aquí estructuras personalizadas para las URLs de etiqueta o temática. Por ejemplo, usando <code>secciones</code> como temática base hará que los enlaces de temáticas sean algo como <code>%s/secciones/sin-categoria/</code>. Si dejas esto en blanco se usarán los ajustes por defecto."
 
 #: wp-admin/credits.php:125
 msgid "Release Lead"
@@ -4027,23 +4027,23 @@ msgstr "Los menús se pueden mostrar en distintas ubicaciones definidas por tu t
 
 #: wp-admin/includes/edit-tag-messages.php:24
 msgid "Category added."
-msgstr "Categoría añadida."
+msgstr "Temática añadida."
 
 #: wp-admin/includes/edit-tag-messages.php:25
 msgid "Category deleted."
-msgstr "Categoría borrada."
+msgstr "Temática borrada."
 
 #: wp-admin/includes/edit-tag-messages.php:26
 msgid "Category updated."
-msgstr "Categoría actualizada."
+msgstr "Temática actualizada."
 
 #: wp-admin/includes/edit-tag-messages.php:27
 msgid "Category not added."
-msgstr "Categoría no añadida."
+msgstr "Temática no añadida."
 
 #: wp-admin/includes/edit-tag-messages.php:28
 msgid "Category not updated."
-msgstr "Categoría no actualizada."
+msgstr "Temática no actualizada."
 
 #: wp-admin/edit.php:286
 msgid "%s page restored from the Trash."
@@ -4053,7 +4053,7 @@ msgstr[1] "%s páginas restauradas desde la Papelera."
 
 #: wp-admin/includes/edit-tag-messages.php:29
 msgid "Categories deleted."
-msgstr "Categorías borradas."
+msgstr "Temáticas borradas."
 
 #: wp-admin/includes/edit-tag-messages.php:34
 msgid "Tag added."
@@ -4411,7 +4411,7 @@ msgstr "Gestión de menús"
 
 #: wp-admin/nav-menus.php:544
 msgid "Each navigation menu may contain a mix of links to pages, categories, custom URLs or other content types. Menu links are added by selecting items from the expanding boxes in the left-hand column below."
-msgstr "Cada menú personalizado puede contener una mezcla de enlaces a páginas, categorías, URLs personalizadas u otros tipos de contenidos. Los enlaces del menú se añaden eligiendo elementos de las cajas desplegables de la columna izquierda."
+msgstr "Cada menú personalizado puede contener una mezcla de enlaces a páginas, temáticas, URLs personalizadas u otros tipos de contenidos. Los enlaces del menú se añaden eligiendo elementos de las cajas desplegables de la columna izquierda."
 
 #: wp-admin/nav-menus.php:520
 msgid "This screen is used for managing your navigation menus."
@@ -4573,7 +4573,7 @@ msgstr "Para usar una imagen de fondo, simplemente súbela o selecciona una imag
 
 #: wp-admin/edit-tags.php:250
 msgid "<strong>Parent</strong> &mdash; Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have child categories for Bebop and Big Band. Totally optional. To create a subcategory, just choose another category from the Parent dropdown."
-msgstr "<strong>Superior</strong> &mdash; Las categorías, al contrario que las etiquetas, pueden tener jerarquía. Puedes tener una categoría Jazz, y bajo esa tener tener categorías hijas para Bebop y Big Band. Es totalmente opcional. Para crear una subcategoría primero elige otra categoría del desplegable denominado Superior."
+msgstr "<strong>Superior</strong> &mdash; Las temáticas, al contrario que las etiquetas, pueden tener jerarquía. Puedes tener una temática Jazz, y bajo esa tener tener temáticas hijas para Bebop y Big Band. Es totalmente opcional. Para crear una subtemática primero elige otra temática del desplegable denominado Superior."
 
 #: wp-admin/edit-form-advanced.php:435
 msgid "Inserting Media"
@@ -4854,7 +4854,7 @@ msgstr "Saltar al contenido principal"
 
 #: wp-admin/edit-tags.php:560
 msgid "Tags can be selectively converted to categories using the <a href=\"%s\">tag to category converter</a>."
-msgstr "Puedes elegir las etiquetas que quieras y convertirlas en categorías utilizando el <a href=\"%s\">conversor de etiquetas a categorías</a>."
+msgstr "Puedes elegir las etiquetas que quieras y convertirlas en temáticas utilizando el <a href=\"%s\">conversor de etiquetas a temáticas</a>."
 
 #. translators: %s: plugin name
 #. translators: %s: theme name
@@ -4870,7 +4870,7 @@ msgstr "Elige %s"
 
 #: wp-admin/edit-tags.php:227
 msgid "You can delete Link Categories in the Bulk Action pull-down, but that action does not delete the links within the category. Instead, it moves them to the default Link Category."
-msgstr "Puedes borrar Categorías de enlace en el desplegable de Acciones en lote, pero la acción no borra los enlaces dentro de la categoría. En su lugar, los mueve a la Categoría de enlaces por defecto."
+msgstr "Puedes borrar Temáticas de enlace en el desplegable de Acciones en lote, pero la acción no borra los enlaces dentro de la temática. En su lugar, los mueve a la Temática de enlaces por defecto."
 
 #: wp-admin/edit-form-advanced.php:397
 msgid "Creating a Page is very similar to creating a Post, and the screens can be customized in the same way using drag and drop, the Screen Options tab, and expanding/collapsing boxes as you choose. This screen also has the distraction-free writing space, available in both the Visual and Text modes via the Fullscreen buttons. The Page editor mostly works the same as the Post editor, but there are some Page-specific features in the Page Attributes box."
@@ -4945,11 +4945,11 @@ msgstr "Previsualizar %s"
 
 #: wp-admin/tools.php:17
 msgid "Categories have hierarchy, meaning that you can nest sub-categories. Tags do not have hierarchy and cannot be nested. Sometimes people start out using one on their posts, then later realize that the other would work better for their content."
-msgstr "Las categorías tienen jerarquías, lo que significa que pueden anidar subcategorías. Las Etiquetas no tienen jerarquías y no pueden anidarse. A veces la gente empieza a usar una en sus entradas, y luego se da cuenta de que otra funcionaría mejor para su contenido."
+msgstr "Las temáticas tienen jerarquías, lo que significa que pueden anidar subtemáticas. Las Etiquetas no tienen jerarquías y no pueden anidarse. A veces la gente empieza a usar una en sus entradas, y luego se da cuenta de que otra funcionaría mejor para su contenido."
 
 #: wp-admin/tools.php:18
 msgid "The Categories and Tags Converter link on this screen will take you to the Import screen, where that Converter is one of the plugins you can install. Once that plugin is installed, the Activate Plugin &amp; Run Importer link will take you to a screen where you can choose to convert tags into categories or vice versa."
-msgstr "El enlace del Conversor de categorías y etiquetas de esta pantalla te llevará a la pantalla de importación, donde el conversor es un plugin que puedes instalar. Una vez esté instalado el plugin, el enlace de Activar plugin y ejecutar importador te llevará a una pantalla donde podrás elegir convertir etiquetas a categorías y viceversa."
+msgstr "El enlace del Conversor de temáticas y etiquetas de esta pantalla te llevará a la pantalla de importación, donde el conversor es un plugin que puedes instalar. Una vez esté instalado el plugin, el enlace de Activar plugin y ejecutar importador te llevará a una pantalla donde podrás elegir convertir etiquetas a temáticas y viceversa."
 
 #: wp-admin/custom-header.php:98
 msgid "This screen is used to customize the header section of your theme."
@@ -5465,7 +5465,7 @@ msgstr "Fallo al reparar la tabla %1$s. Error: %2$s"
 
 #: wp-admin/export.php:48
 msgid "You can export a file of your site&#8217;s content in order to import it into another installation or platform. The export file will be an XML file format called WXR. Posts, pages, comments, custom fields, categories, and tags can be included. You can choose for the WXR file to include only certain posts or pages by setting the dropdown filters to limit the export by category, author, date range by month, or publishing status."
-msgstr "Puedes exportar un archivo del contenido de tu sitio para que puedas importarlo a otra instalación o plataforma. El archivo de exportación será un archivo XML en un formato llamado WXR. Se incluirán entradas, páginas, comentarios, campos personalizados, categorías y etiquetas. Puedes elegir incluir en el archivo WXR solo cierta entradas o páginas con los filtros desplegables para limitar la exportación por categorías, autor, rango de fechas por mes o estado de publicación."
+msgstr "Puedes exportar un archivo del contenido de tu sitio para que puedas importarlo a otra instalación o plataforma. El archivo de exportación será un archivo XML en un formato llamado WXR. Se incluirán entradas, páginas, comentarios, campos personalizados, temáticas y etiquetas. Puedes elegir incluir en el archivo WXR solo cierta entradas o páginas con los filtros desplegables para limitar la exportación por temáticas, autor, rango de fechas por mes o estado de publicación."
 
 #: wp-admin/user-new.php:190
 msgid "New users will receive an email letting them know they&#8217;ve been added as a user for your site. This email will also contain their password. Check the box if you don&#8217;t want the user to receive a welcome email."
@@ -5614,7 +5614,7 @@ msgstr "Aquí puedes subir archivos de medios sin tener que crear una entrada an
 
 #: wp-admin/edit-tags.php:258
 msgid "Adding Categories"
-msgstr "Añadiendo categorías"
+msgstr "Añadiendo temáticas"
 
 #: wp-admin/edit-tags.php:258
 msgid "Adding Tags"
@@ -5654,7 +5654,7 @@ msgstr "Si el importador que necesitas no está en la lista, <a href=\"%s\">busc
 
 #: wp-admin/tools.php:39
 msgid "If you want to convert your categories to tags (or vice versa), use the <a href=\"%s\">Categories and Tags Converter</a> available from the Import screen."
-msgstr "Si quieres convertir categorías en etiquetas (o viceversa), utiliza el <a href=\"%s\">Conversor de categorías y etiquetas</a> que está disponible en la página de importación."
+msgstr "Si quieres convertir temáticas en etiquetas (o viceversa), utiliza el <a href=\"%s\">Conversor de temáticas y etiquetas</a> que está disponible en la página de importación."
 
 #: wp-admin/export.php:159
 msgid "Once you&#8217;ve saved the download file, you can use the Import function in another WordPress installation to import the content from this site."
@@ -5694,7 +5694,7 @@ msgstr "También puedes editar o mover varias entradas a la papelera a la vez. S
 
 #: wp-admin/edit.php:223
 msgid "When using Bulk Edit, you can change the metadata (categories, author, etc.) for all selected posts at once. To remove a post from the grouping, just click the x next to its name in the Bulk Edit area that appears."
-msgstr "Si usas la edición por lotes puedes cambiar los metadatos (categorías, autor, etc.) para los todas las entradas seleccionadas de una vez. Para eliminar una entrada de ese agrupamiento, solo tienes que hacer clic en la x que hay junto a nombre en el área de edición por lotes que aparece."
+msgstr "Si usas la edición por lotes puedes cambiar los metadatos (temáticas, autor, etc.) para los todas las entradas seleccionadas de una vez. Para eliminar una entrada de ese agrupamiento, solo tienes que hacer clic en la x que hay junto a nombre en el área de edición por lotes que aparece."
 
 #: wp-admin/edit.php:196 wp-admin/users.php:38
 msgid "Screen Content"
@@ -5710,7 +5710,7 @@ msgstr "Estruturas personalizadas"
 
 #: wp-admin/options-permalink.php:21
 msgid "Permalinks are the permanent URLs to your individual pages and blog posts, as well as your category and tag archives. A permalink is the web address used to link to your content. The URL to each post should be permanent, and never change &#8212; hence the name permalink."
-msgstr "Los enlaces permanentes son URLs permanentes para tus páginas y entradas de blog, así como para las categorías y las etiquetas de archivos. Un enlace permanente es la dirección web utilizada para enlazar tu contenido. La URL de cada entrada debe ser siempre la misma, permanente, y no cambiar nunca &#8212; de ahí que se llame enlace permanente."
+msgstr "Los enlaces permanentes son URLs permanentes para tus páginas y entradas de blog, así como para las temáticas y las etiquetas de archivos. Un enlace permanente es la dirección web utilizada para enlazar tu contenido. La URL de cada entrada debe ser siempre la misma, permanente, y no cambiar nunca &#8212; de ahí que se llame enlace permanente."
 
 #: wp-admin/options-writing.php:21
 msgid "You can submit content in several different ways; this screen holds the settings for all of them. The top section controls the editor within the dashboard, while the rest control external publishing methods. For more information on any of these methods, use the documentation links."
@@ -5766,7 +5766,7 @@ msgstr "<strong>Arrastra y suelta</strong> tus archivos en el espacio inferior. 
 
 #: wp-admin/edit-tags.php:224
 msgid "You can assign keywords to your posts using <strong>tags</strong>. Unlike categories, tags have no hierarchy, meaning there&#8217;s no relationship from one tag to another."
-msgstr "Puedes asignar palabras clave a tu entradas utilizando las <strong>etiquetas</strong>. A diferencia de las categorías, las etiquetas no tienen jerarquía, lo que significa que no hay relación  de una etiqueta con otra."
+msgstr "Puedes asignar palabras clave a tu entradas utilizando las <strong>etiquetas</strong>. A diferencia de las temáticas, las etiquetas no tienen jerarquía, lo que significa que no hay relación  de una etiqueta con otra."
 
 #: wp-admin/media-new.php:50
 msgid "Clicking <strong>Select Files</strong> opens a navigation window showing you files in your operating system. Selecting <strong>Open</strong> after clicking on the file you want activates a progress bar on the uploader screen."
@@ -5774,7 +5774,7 @@ msgstr "Haciendo clic en <strong>Seleccionar archivos</strong> se abre una venta
 
 #: wp-admin/edit-tags.php:222
 msgid "You can create groups of links by using Link Categories. Link Category names must be unique and Link Categories are separate from the categories you use for posts."
-msgstr "Puedes crear grupos de enlaces utilizando las categorías de enlaces. Los nombres de las categorías de enlaces deben ser únicos y son distintas de las categorías que usas para tus entradas."
+msgstr "Puedes crear grupos de enlaces utilizando las temáticas de enlaces. Los nombres de las temáticas de enlaces deben ser únicos y son distintas de las temáticas que usas para tus entradas."
 
 #: wp-admin/link-manager.php:59
 msgid "Deleting Links"
@@ -5824,7 +5824,7 @@ msgstr "Puedes gestionar los comentarios de tu sitio igual que gestionas tus art
 
 #: wp-admin/link-manager.php:54
 msgid "Links may be separated into Link Categories; these are different than the categories used on your posts."
-msgstr "Los enlaces pueden dividirse en categorías de enlaces; estas son diferentes de las categorías utilizadas en las entradas"
+msgstr "Los enlaces pueden dividirse en temáticas de enlaces; estas son diferentes de las temáticas utilizadas en las entradas"
 
 #: wp-admin/update-core.php:213
 msgid "<a href=\"%s\">Learn more about WordPress %s</a>."
@@ -6897,7 +6897,7 @@ msgstr "Usuario FTP/SSH"
 
 #: wp-admin/options-permalink.php:38
 msgid "The Optional fields let you customize the &#8220;category&#8221; and &#8220;tag&#8221; base names that will appear in archive URLs. For example, the page listing all posts in the &#8220;Uncategorized&#8221; category could be <code>/topics/uncategorized</code> instead of <code>/category/uncategorized</code>."
-msgstr "Los campos opcionales te permiten personalizar los nombres base de &#8220;categoría&#8221; y &#8220;etiqueta&#8221; que aparecerán en las URLs del archivo. Por ejemplo, la página con el listado de todas las entradas de la categoría &#8220;Sin categoría&#8221; podrían ser como <code>/temas/sin-categoria</code> en vez de <code>/category/sin-categoria</code>."
+msgstr "Los campos opcionales te permiten personalizar los nombres base de &#8220;temática&#8221; y &#8220;etiqueta&#8221; que aparecerán en las URLs del archivo. Por ejemplo, la página con el listado de todas las entradas de la temática &#8220;Sin temática&#8221; podrían ser como <code>/temas/sin-categoria</code> en vez de <code>/category/sin-categoria</code>."
 
 #: wp-admin/widgets.php:70
 msgid "Many themes show some sidebar widgets by default until you edit your sidebars, but they are not automatically displayed in your sidebar management tool. After you make your first widget change, you can re-add the default widgets by adding them from the Available Widgets area."
@@ -6909,7 +6909,7 @@ msgstr "Si eliges cualquier opción distinta de Simple tu ruta general de URL co
 
 #: wp-admin/options-permalink.php:31
 msgid "When you assign multiple categories or tags to a post, only one can show up in the permalink: the lowest numbered category. This applies if your custom structure includes <code>%category%</code> or <code>%tag%</code>."
-msgstr "Cuando asignas varias categorías o etiquetas a una entrada solo se puede mostrar una en el enlace permanente: la categoría con el número más bajo. Esto es así si tu estructura personalizada contiene <code>%category%</code> o <code>%tag%</code>."
+msgstr "Cuando asignas varias temáticas o etiquetas a una entrada solo se puede mostrar una en el enlace permanente: la temática con el número más bajo. Esto es así si tu estructura personalizada contiene <code>%category%</code> o <code>%tag%</code>."
 
 #: wp-admin/options-reading.php:24
 msgid "You can choose what&#8217;s displayed on the homepage of your site. It can be posts in reverse chronological order (classic blog), or a fixed/static page. To set a static homepage, you first need to create two <a href=\"%s\">Pages</a>. One will become the homepage, and the other will be where your posts are displayed."
@@ -7085,7 +7085,7 @@ msgstr "Puede añadir o editar enlaces desde esta pantalla introduciendo la info
 
 #: wp-admin/edit-tags.php:555
 msgid "Categories can be selectively converted to tags using the <a href=\"%s\">category to tag converter</a>."
-msgstr "Las categorías se pueden convertir a voluntad en etiquetas usando el <a href=\"%s\">conversor de categorías a etiquetas</a>."
+msgstr "Las temáticas se pueden convertir a voluntad en etiquetas usando el <a href=\"%s\">conversor de temáticas a etiquetas</a>."
 
 #: wp-admin/includes/class-walker-nav-menu-checklist.php:98
 msgctxt "nav menu front page title"
@@ -7162,11 +7162,11 @@ msgstr "Todas las actualizaciones se han completado."
 
 #: wp-admin/edit-tags.php:239
 msgid "When adding a new category on this screen, you&#8217;ll fill in the following fields:"
-msgstr "Cuando añades una nueva categoría en esta pantalla, rellenas los siguientes campos."
+msgstr "Cuando añades una nueva temática en esta pantalla, rellenas los siguientes campos."
 
 #: wp-admin/edit-tags.php:220
 msgid "You can use categories to define sections of your site and group related posts. The default category is &#8220;Uncategorized&#8221; until you change it in your <a href=\"%s\">writing settings</a>."
-msgstr "Puedes usar categorías para definir secciones para las entradas de tu sitio y grupo. La categoría por defecto es &#8220;Sin categoría&#8221; hasta que la cambies en tus <a href=\"%s\">ajustes de escritura</a>."
+msgstr "Puedes usar temáticas para definir secciones para las entradas de tu sitio y grupo. La temática por defecto es &#8220;Sin temática&#8221; hasta que la cambies en tus <a href=\"%s\">ajustes de escritura</a>."
 
 #: wp-admin/edit-tags.php:241
 msgid "When adding a new tag on this screen, you&#8217;ll fill in the following fields:"
@@ -7174,7 +7174,7 @@ msgstr "Cuando añadas una nueva etiqueta en esta pantalla, rellenarás los sigu
 
 #: wp-admin/edit-tags.php:229
 msgid "What&#8217;s the difference between categories and tags? Normally, tags are ad-hoc keywords that identify important information in your post (names, subjects, etc) that may or may not recur in other posts, while categories are pre-determined sections. If you think of your site like a book, the categories are like the Table of Contents and the tags are like the terms in the index."
-msgstr "¿Cuál es la diferencia entre categorías y etiquetas? Normalmente, las etiquetas son palabras clave que identifican información importante en tus entradas (nombres, asuntos, etc...) que pueden ser recurrentes o no en otras entradas, mientras que las categorías son secciones predeterminadas. Si piensas en tu sitio como en un libro, las categorías sería la tabla de contenidos mientras que las etiquetas serían como los términos en el índice."
+msgstr "¿Cuál es la diferencia entre temáticas y etiquetas? Normalmente, las etiquetas son palabras clave que identifican información importante en tus entradas (nombres, asuntos, etc...) que pueden ser recurrentes o no en otras entradas, mientras que las temáticas son secciones predeterminadas. Si piensas en tu sitio como en un libro, las temáticas sería la tabla de contenidos mientras que las etiquetas serían como los términos en el índice."
 
 #: wp-admin/edit-tags.php:254
 msgid "You can change the display of this screen using the Screen Options tab to set how many items are displayed per screen and to display/hide columns in the table."
@@ -7274,7 +7274,7 @@ msgstr "Pasando el cursor sobre la línea de la entrada, mostrará los enlaces d
 
 #: wp-admin/edit.php:203
 msgid "You can refine the list to show only posts in a specific category or from a specific month by using the dropdown menus above the posts list. Click the Filter button after making your selection. You also can refine the list by clicking on the post author, category or tag in the posts list."
-msgstr "Puedes refinar lo que muestra el listado de entradas haciendo que solo se muestren las de una categoría específica o de un mes determinado usando el menú desplegable que encontrarás sobre el listado de entradas. Realiza un clic sobre el botón Filtro después de realizar tu selección. También puedes refinar el listado haciendo clic sobre el autor de una entrada, categoría o etiqueta del listado de entradas."
+msgstr "Puedes refinar lo que muestra el listado de entradas haciendo que solo se muestren las de una temática específica o de un mes determinado usando el menú desplegable que encontrarás sobre el listado de entradas. Realiza un clic sobre el botón Filtro después de realizar tu selección. También puedes refinar el listado haciendo clic sobre el autor de una entrada, temática o etiqueta del listado de entradas."
 
 #: wp-admin/plugins.php:557
 msgid "Search Installed Plugins"
@@ -7290,7 +7290,7 @@ msgstr "El tema actual no es compatible con menús de navegación o widgets."
 
 #: wp-admin/includes/import.php:175 wp-admin/tools.php:16 wp-admin/tools.php:38
 msgid "Categories and Tags Converter"
-msgstr "Conversor de etiquetas y categorías"
+msgstr "Conversor de etiquetas y temáticas"
 
 #: wp-admin/includes/nav-menu.php:398
 msgid "Most Recent"
@@ -7995,7 +7995,7 @@ msgstr "Convertir emoticonos como <code>:-)</code> y <code>:-P</code> a gráfico
 
 #: wp-admin/options-writing.php:97
 msgid "Default Link Category"
-msgstr "Categoría predeterminada para enlaces"
+msgstr "Temática predeterminada para enlaces"
 
 #: wp-admin/options-writing.php:129
 msgid "Mail Server"
@@ -8123,7 +8123,7 @@ msgstr "Widgets disponibles"
 
 #: wp-admin/export.php:172
 msgid "Categories:"
-msgstr "Categorías:"
+msgstr "Temáticas:"
 
 #: wp-admin/includes/theme.php:267
 msgid "One Column"
@@ -8207,7 +8207,7 @@ msgstr "¡No se ha podido completar la actualización automática de WordPress! 
 #: wp-admin/includes/upgrade.php:136
 msgctxt "Default category slug"
 msgid "Uncategorized"
-msgstr "Sin categoría"
+msgstr "Sin temática"
 
 #: wp-admin/includes/upgrade.php:183
 msgid "Hello world!"
@@ -8336,7 +8336,7 @@ msgstr "Incrustados"
 #. translators: prefix for category permalinks
 #: wp-admin/options-permalink.php:287
 msgid "Category base"
-msgstr "Categoría base"
+msgstr "Temática base"
 
 #: wp-admin/options-permalink.php:291
 msgid "Tag base"
@@ -8356,7 +8356,7 @@ msgstr "Codificación para páginas y feeds"
 
 #: wp-admin/options-writing.php:71
 msgid "Default Post Category"
-msgstr "Categoría predeterminada para las entradas"
+msgstr "Temática predeterminada para las entradas"
 
 #: wp-admin/plugin-editor.php:20
 msgid "Edit Plugins"
@@ -8876,7 +8876,7 @@ msgstr "Tamaño de las imágenes"
 
 #: wp-admin/options-writing.php:146
 msgid "Default Mail Category"
-msgstr "Categoría predeterminada para publicar por correo electrónico"
+msgstr "Temática predeterminada para publicar por correo electrónico"
 
 #: wp-admin/update-core.php:110
 msgid "This localized version contains both the translation and various other localization fixes. You can skip upgrading if you want to keep your current translation."
@@ -9335,7 +9335,7 @@ msgstr "Exportar"
 
 #: wp-admin/export.php:158
 msgid "This format, which we call WordPress eXtended RSS or WXR, will contain your posts, pages, comments, custom fields, categories, and tags."
-msgstr "Este formato, que llamamos WordPress eXtended RSS (RSS ampliado de WordPress) o WXR, contendrá todas tus entradas, comentarios, campos personalizados, categorías y etiquetas."
+msgstr "Este formato, que llamamos WordPress eXtended RSS (RSS ampliado de WordPress) o WXR, contendrá todas tus entradas, comentarios, campos personalizados, temáticas y etiquetas."
 
 #: wp-admin/import.php:86
 msgid "No importers are available."
@@ -9424,7 +9424,7 @@ msgstr "Hoja de estilos RTL"
 
 #: wp-admin/includes/file.php:29
 msgid "Category Template"
-msgstr "Plantilla de categoría"
+msgstr "Plantilla de temática"
 
 #: wp-admin/includes/file.php:21
 msgid "Search Form"
@@ -9838,7 +9838,7 @@ msgstr "Dirección web"
 
 #: wp-admin/edit-tag-form.php:167 wp-admin/edit-tags.php:442
 msgid "Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have children categories for Bebop and Big Band. Totally optional."
-msgstr "Las categorías, a diferencia de las etiquetas, pueden tener jerarquías. Podrías tener una categoría de Jazz, y por debajo las categorías Bebop y Big Band. Totalmente opcional."
+msgstr "Las temáticas, a diferencia de las etiquetas, pueden tener jerarquías. Podrías tener una temática de Jazz, y por debajo las temáticas Bebop y Big Band. Totalmente opcional."
 
 #: wp-admin/includes/edit-tag-messages.php:14
 msgid "Item added."
@@ -10498,7 +10498,7 @@ msgstr "Slug"
 
 #: wp-admin/includes/meta-boxes.php:1025
 msgid "New category name"
-msgstr "Nombre nueva categoría"
+msgstr "Nombre nueva temática"
 
 #. translators: site tagline
 #: wp-admin/includes/schema.php:398
@@ -10701,7 +10701,7 @@ msgstr "Columnas de la galería"
 
 #: wp-admin/includes/meta-boxes.php:1022 wp-admin/includes/meta-boxes.php:1024
 msgid "+ Add New Category"
-msgstr "+ Añadir categoría nueva "
+msgstr "+ Añadir temática nueva "
 
 #: wp-admin/includes/plugin-install.php:614
 msgid "(based on %s rating)"
@@ -10913,7 +10913,7 @@ msgstr "El comentario %d no existe"
 
 #: wp-admin/includes/taxonomy.php:116
 msgid "You did not enter a category name."
-msgstr "No has introducido un nombre de categoría."
+msgstr "No has introducido un nombre de temática."
 
 #: wp-admin/includes/ajax-actions.php:1076
 msgid "Sorry, you must be logged in to reply to a comment."

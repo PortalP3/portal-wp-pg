@@ -81,7 +81,7 @@ msgstr "Etiquetas"
 
 #: inc/template-tags.php:84
 msgid "Categories"
-msgstr "Categorías"
+msgstr "Temáticas"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:65

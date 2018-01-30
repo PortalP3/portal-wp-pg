@@ -63,7 +63,7 @@ msgstr "Etiquetas"
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
-msgstr "Categorías"
+msgstr "Temáticas"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."

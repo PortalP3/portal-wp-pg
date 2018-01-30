@@ -180,7 +180,7 @@ msgstr "¿Dónde quieres que aparezca este menú?"
 
 #: wp-includes/class-wp-customize-nav-menus.php:964
 msgid "You&#8217;ll create a menu, assign it a location, and add menu items like links to pages and categories. If your theme has multiple menu areas, you might need to create more than one."
-msgstr "Crea un menú, asígnalo a una ubicación y añade elementos de menú como enlaces a páginas y categorías. Si tu tema tiene varias áreas de menú, puede que tengas que crear más de uno."
+msgstr "Crea un menú, asígnalo a una ubicación y añade elementos de menú como enlaces a páginas y temáticas. Si tu tema tiene varias áreas de menú, puede que tengas que crear más de uno."
 
 #: wp-includes/class-wp-customize-nav-menus.php:961
 msgid "It doesn&#8217;t look like your site has any menus yet. Want to build one? Click the button to start."
@@ -324,11 +324,11 @@ msgstr "<strong>ERROR</strong>: La dirección de correo electrónico ya existe."
 
 #: wp-includes/taxonomy.php:526
 msgid "&larr; Back to Categories"
-msgstr "&larr; Volver a categorías"
+msgstr "&larr; Volver a temáticas"
 
 #: wp-includes/taxonomy.php:123
 msgid "&larr; Back to Link Categories"
-msgstr "&larr; Volver a categorías de enlace"
+msgstr "&larr; Volver a temáticas de enlace"
 
 #: wp-includes/script-loader.php:856
 msgid "Color value"
@@ -859,7 +859,7 @@ msgstr "URL no válida."
 
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:39
 msgid "Time to add some links! Click &#8220;Add menu items&#8221; to start putting pages, categories, and custom links in your menu. Add as many things as you&#8217;d like."
-msgstr "¡Es el momento de añadir algunos enlaces! Haz clic en \"Añade elementos de menú\" para empezar a colocar páginas, categorías y enlaces personalizados en tu menú. Añade tantos elementos como quieras."
+msgstr "¡Es el momento de añadir algunos enlaces! Haz clic en \"Añade elementos de menú\" para empezar a colocar páginas, temáticas y enlaces personalizados en tu menú. Añade tantos elementos como quieras."
 
 #: wp-includes/customize/class-wp-customize-media-control.php:249
 msgid "Choose image"
@@ -2209,7 +2209,7 @@ msgstr "Yelp"
 #: wp-includes/theme.php:1966
 msgctxt "Theme starter content"
 msgid "Categories"
-msgstr "Categorías"
+msgstr "Temáticas"
 
 #: wp-includes/theme.php:1978
 msgctxt "Theme starter content"
@@ -3954,7 +3954,7 @@ msgstr "Lo siento, no tienes permisos para subir archivos."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3141
 msgid "Sorry, you are not allowed to add a category."
-msgstr "Lo siento, no tienes permisos para añadir una categoría."
+msgstr "Lo siento, no tienes permisos para añadir una temática."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2558
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:182
@@ -4585,7 +4585,7 @@ msgstr "<strong>ERROR</strong>: Nombre de usuario no válido."
 
 #: wp-includes/taxonomy.php:523
 msgid "Categories list"
-msgstr "Lista de categorías"
+msgstr "Lista de temáticas"
 
 #: wp-includes/taxonomy.php:523
 msgid "Tags list"
@@ -4593,7 +4593,7 @@ msgstr "Lista de etiquetas"
 
 #: wp-includes/taxonomy.php:522
 msgid "Categories list navigation"
-msgstr "Navegación por la lista de categorías"
+msgstr "Navegación por la lista de temáticas"
 
 #: wp-includes/taxonomy.php:522
 msgid "Tags list navigation"
@@ -5439,7 +5439,7 @@ msgstr[1] "Tu tema puede mostrar menús en %s ubicaciones. Elige qué menú debe
 
 #: wp-includes/class-wp-customize-nav-menus.php:557
 msgid "This panel is used for managing navigation menus for content you have already published on your site. You can create menus and add items for existing content such as pages, posts, categories, tags, formats, or custom links."
-msgstr "Este panel se usa para gestionar los menús de navegación de los contenidos que ya has publicado en tu sitio. Puedes crear menús y añadir elementos del contenido existente, como páginas, entradas, categorías, etiquetas, formatos, o enlaces personalizados. "
+msgstr "Este panel se usa para gestionar los menús de navegación de los contenidos que ya has publicado en tu sitio. Puedes crear menús y añadir elementos del contenido existente, como páginas, entradas, temáticas, etiquetas, formatos, o enlaces personalizados. "
 
 #. translators: 1: item name, 2: item position, 3: parent item name
 #: wp-includes/class-wp-customize-nav-menus.php:472
@@ -5867,7 +5867,7 @@ msgstr "Vista previa"
 
 #: wp-includes/taxonomy.php:520
 msgid "No categories found."
-msgstr "No se encontraron categorías."
+msgstr "No se encontraron temáticas."
 
 #: wp-includes/class-wp-editor.php:1256 wp-includes/script-loader.php:99
 msgid "Distraction-free writing mode"
@@ -6032,7 +6032,7 @@ msgstr "Los siguientes valores no describen una fecha correcta: año %1$s, mes %
 #. translators: Category archive title. 1: Category name
 #: wp-includes/general-template.php:1468
 msgid "Category: %s"
-msgstr "Categoría: %s"
+msgstr "Temática: %s"
 
 #. translators: Tag archive title. 1: Tag name
 #: wp-includes/general-template.php:1471
@@ -7311,7 +7311,7 @@ msgstr "Las entradas más recientes de tu sitio."
 
 #: wp-includes/widgets/class-wp-widget-categories.php:27
 msgid "A list or dropdown of categories."
-msgstr "Lista o desplegable de categorías."
+msgstr "Lista o desplegable de temáticas."
 
 #: wp-includes/widgets/class-wp-widget-calendar.php:36
 msgid "A calendar of your site&#8217;s Posts."
@@ -8238,7 +8238,7 @@ msgstr "El nombre del término no puede estar vacío."
 
 #: wp-includes/widgets/class-wp-widget-links.php:127
 msgid "Select Link Category:"
-msgstr "Elige una categoría de enlace:"
+msgstr "Elige una temática de enlace:"
 
 #: wp-includes/class-wp-xmlrpc-server.php:523
 msgid "Stylesheet"
@@ -8380,7 +8380,7 @@ msgstr "Nombre de término ambiguo usado en una taxonomía jerárquica. Por favo
 
 #: wp-includes/class-wp-xmlrpc-server.php:3217
 msgid "Sorry, you are not allowed to delete this category."
-msgstr "Lo siento, no tienes permisos para borrar esta categoría. "
+msgstr "Lo siento, no tienes permisos para borrar esta temática. "
 
 #: wp-includes/class-wp-xmlrpc-server.php:1423
 #: wp-includes/class-wp-xmlrpc-server.php:5021
@@ -8662,7 +8662,7 @@ msgstr "Medio"
 
 #: wp-includes/taxonomy.php:513
 msgid "View Category"
-msgstr "Ver categoría"
+msgstr "Ver temática"
 
 #: wp-includes/taxonomy.php:513
 msgid "View Tag"
@@ -8989,27 +8989,27 @@ msgstr "Taxonomía no válida: %s."
 
 #: wp-includes/taxonomy.php:112
 msgid "Link Category"
-msgstr "Categoría de enlaces"
+msgstr "Temática de enlaces"
 
 #: wp-includes/taxonomy.php:113
 msgid "Search Link Categories"
-msgstr "Buscar categorías de enlaces"
+msgstr "Buscar temáticas de enlaces"
 
 #: wp-includes/taxonomy.php:115
 msgid "All Link Categories"
-msgstr "Todas las categorías de enlaces"
+msgstr "Todas las temáticas de enlaces"
 
 #: wp-includes/taxonomy.php:117
 msgid "Update Link Category"
-msgstr "Actualizar categoría de enlaces"
+msgstr "Actualizar temática de enlaces"
 
 #: wp-includes/taxonomy.php:118
 msgid "Add New Link Category"
-msgstr "Añadir nueva categoría de enlaces"
+msgstr "Añadir nueva temática de enlaces"
 
 #: wp-includes/taxonomy.php:119
 msgid "New Link Category Name"
-msgstr "Nuevo nombre de categoría de enlaces"
+msgstr "Nuevo nombre de temática de enlaces"
 
 #: wp-includes/admin-bar.php:444
 msgid "Network Admin"
@@ -9028,7 +9028,7 @@ msgstr "Esta entrada está protegida. Para verla, escribe la contraseña:"
 #. translators: %s: category name
 #: wp-includes/theme-compat/sidebar.php:39
 msgid "You are currently browsing the archives for the %s category."
-msgstr "Actualmente estás navegando por el archivo de la categoría %s"
+msgstr "Actualmente estás navegando por el archivo de la temática %s"
 
 #: wp-includes/theme-compat/sidebar.php:48
 msgid "l, F jS, Y"
@@ -9055,7 +9055,7 @@ msgstr "Elige entre las etiquetas más utilizadas"
 #: wp-includes/taxonomy.php:505
 msgctxt "taxonomy general name"
 msgid "Categories"
-msgstr "Categorías"
+msgstr "Temáticas"
 
 #: wp-includes/taxonomy.php:509
 msgid "All Tags"
@@ -9063,11 +9063,11 @@ msgstr "Todas las etiquetas"
 
 #: wp-includes/taxonomy.php:510
 msgid "Parent Category"
-msgstr "Categoría superior"
+msgstr "Temática superior"
 
 #: wp-includes/taxonomy.php:511
 msgid "Parent Category:"
-msgstr "Categoría superior:"
+msgstr "Temática superior:"
 
 #: wp-includes/taxonomy.php:514
 msgid "Update Tag"
@@ -9079,7 +9079,7 @@ msgstr "Añadir nueva etiqueta"
 
 #: wp-includes/taxonomy.php:515
 msgid "Add New Category"
-msgstr "Añadir nueva categoría"
+msgstr "Añadir nueva temática"
 
 #: wp-includes/taxonomy.php:516
 msgid "New Tag Name"
@@ -9087,7 +9087,7 @@ msgstr "Nombre de la nueva etiqueta"
 
 #: wp-includes/taxonomy.php:516
 msgid "New Category Name"
-msgstr "Nombre de la nueva categoría"
+msgstr "Nombre de la nueva temática"
 
 #: wp-includes/taxonomy.php:508
 msgid "Popular Tags"
@@ -9100,7 +9100,7 @@ msgstr "Buscar etiquetas"
 #: wp-includes/taxonomy.php:506
 msgctxt "taxonomy singular name"
 msgid "Category"
-msgstr "Categoría"
+msgstr "Temática"
 
 #: wp-signup.php:764
 msgid "Check the junk or spam folder of your email client. Sometime emails wind up there by mistake."
@@ -9198,7 +9198,7 @@ msgstr "Disculpa, no tienes autorización para publicar páginas en este sitio."
 #: wp-includes/class-wp-xmlrpc-server.php:5831
 #: wp-includes/class-wp-xmlrpc-server.php:6053
 msgid "Sorry, you must be able to edit posts on this site in order to view categories."
-msgstr "Disculpa, para ver las categorías tienes que estar autorizado para editar entradas en este sitio."
+msgstr "Disculpa, para ver las temáticas tienes que estar autorizado para editar entradas en este sitio."
 
 #: wp-includes/class-wp-xmlrpc-server.php:4955
 #: wp-includes/class-wp-xmlrpc-server.php:4968
@@ -9739,7 +9739,7 @@ msgstr "El ID del comentario no es válido."
 #: wp-includes/class-wp-xmlrpc-server.php:3170
 #: wp-includes/class-wp-xmlrpc-server.php:3172
 msgid "Sorry, the new category failed."
-msgstr "Disculpa, la creación de la nueva categoría falló."
+msgstr "Disculpa, la creación de la nueva temática falló."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2887
 msgid "Failed to delete the page."
@@ -10896,7 +10896,7 @@ msgstr "%1$s %2$s %3$s RSS de la etiqueta"
 #. translators: 1: blog name, 2: separator(raquo), 3: category name
 #: wp-includes/general-template.php:2692
 msgid "%1$s %2$s %3$s Category Feed"
-msgstr "%1$s %2$s %3$s RSS de la categoría"
+msgstr "%1$s %2$s %3$s RSS de la temática"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: post title
 #: wp-includes/general-template.php:2690
@@ -11166,7 +11166,7 @@ msgstr "Mostrar jerarquía"
 
 #: wp-includes/widgets/class-wp-widget-categories.php:75
 msgid "Select Category"
-msgstr "Elegir categoría"
+msgstr "Elegir temática"
 
 #: wp-includes/widgets/class-wp-widget-text.php:468
 msgid "Automatically add paragraphs"
@@ -11305,7 +11305,7 @@ msgstr "Feed para todas las entradas archivadas en %s"
 
 #: wp-includes/category-template.php:516 wp-includes/taxonomy.php:521
 msgid "No categories"
-msgstr "No hay categorías"
+msgstr "No hay temáticas"
 
 #: wp-includes/bookmark-template.php:206
 msgid "Bookmarks"
@@ -11527,7 +11527,7 @@ msgstr "Sí"
 
 #: wp-includes/taxonomy.php:512
 msgid "Edit Category"
-msgstr "Editar Categoría"
+msgstr "Editar Temática"
 
 #: wp-includes/general-template.php:399 wp-login.php:973 wp-login.php:1005
 msgid "Log In"
@@ -11659,7 +11659,7 @@ msgstr "Correo electrónico: %s"
 
 #: wp-includes/category-template.php:148
 msgid "Uncategorized"
-msgstr "Sin categoría"
+msgstr "Sin temática"
 
 #: wp-includes/widgets/class-wp-widget-links.php:29
 msgid "Links"
@@ -11687,7 +11687,7 @@ msgstr "Descartar"
 
 #: wp-includes/taxonomy.php:509
 msgid "All Categories"
-msgstr "Todas las categorías"
+msgstr "Todas las temáticas"
 
 #: wp-includes/class-wp-customize-control.php:634
 #: wp-includes/class-wp-customize-nav-menus.php:1065
@@ -11963,7 +11963,7 @@ msgstr "Destino"
 #: wp-includes/widgets/class-wp-widget-categories.php:30
 #: wp-includes/widgets/class-wp-widget-categories.php:47
 msgid "Categories"
-msgstr "Categorías"
+msgstr "Temáticas"
 
 #: wp-includes/class-wp-editor.php:1121 wp-includes/script-loader.php:721
 msgid "Save"
@@ -11975,19 +11975,19 @@ msgstr "Añadir enlace"
 
 #: wp-includes/taxonomy.php:514
 msgid "Update Category"
-msgstr "Actualizar categoría"
+msgstr "Actualizar temática"
 
 #: wp-includes/taxonomy.php:116
 msgid "Edit Link Category"
-msgstr "Editar categoría del enlace"
+msgstr "Editar temática del enlace"
 
 #: wp-includes/taxonomy.php:507
 msgid "Search Categories"
-msgstr "Buscar categorías"
+msgstr "Buscar temáticas"
 
 #: wp-includes/taxonomy.php:111
 msgid "Link Categories"
-msgstr "Categorías de enlaces"
+msgstr "Temáticas de enlaces"
 
 #: wp-includes/post.php:95
 msgid "Revisions"
