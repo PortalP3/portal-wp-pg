@@ -65,10 +65,7 @@ function creative_gem_header_style() {
 	// If we get this far, we have custom styles. Let's do this.
 	?>
 	<style type="text/css">
-		#site-header {
-			background: url(<?php header_image(); ?>);
-		    background-size: cover;
-		}
+		
 
 	<?php if ( ! display_header_text() ) : ?>
 	.site-title,
