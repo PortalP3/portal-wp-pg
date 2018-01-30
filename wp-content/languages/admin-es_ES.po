@@ -3156,7 +3156,7 @@ msgstr[1] "Todos <span class=\"count\">(%s)</span>"
 #. translators: %s: placeholder that must come at the start of the URL
 #: wp-admin/options-permalink.php:283
 msgid "If you like, you may enter custom structures for your category and tag URLs here. For example, using <code>topics</code> as your category base would make your category links like <code>%s/topics/uncategorized/</code>. If you leave these blank the defaults will be used."
-msgstr "Si quieres, puedes introducir aquí estructuras personalizadas para las URLs de etiqueta o temática. Por ejemplo, usando <code>secciones</code> como temática base hará que los enlaces de temáticas sean algo como <code>%s/secciones/sin-categoria/</code>. Si dejas esto en blanco se usarán los ajustes por defecto."
+msgstr "Si quieres, puedes introducir aquí estructuras personalizadas para las URLs de etiqueta o temática. Por ejemplo, usando <code>secciones</code> como temática base hará que los enlaces de temáticas sean algo como <code>%s/secciones/sin-tematica/</code>. Si dejas esto en blanco se usarán los ajustes por defecto."
 
 #: wp-admin/credits.php:125
 msgid "Release Lead"
@@ -6897,7 +6897,7 @@ msgstr "Usuario FTP/SSH"
 
 #: wp-admin/options-permalink.php:38
 msgid "The Optional fields let you customize the &#8220;category&#8221; and &#8220;tag&#8221; base names that will appear in archive URLs. For example, the page listing all posts in the &#8220;Uncategorized&#8221; category could be <code>/topics/uncategorized</code> instead of <code>/category/uncategorized</code>."
-msgstr "Los campos opcionales te permiten personalizar los nombres base de &#8220;temática&#8221; y &#8220;etiqueta&#8221; que aparecerán en las URLs del archivo. Por ejemplo, la página con el listado de todas las entradas de la temática &#8220;Sin temática&#8221; podrían ser como <code>/temas/sin-categoria</code> en vez de <code>/category/sin-categoria</code>."
+msgstr "Los campos opcionales te permiten personalizar los nombres base de &#8220;temática&#8221; y &#8220;etiqueta&#8221; que aparecerán en las URLs del archivo. Por ejemplo, la página con el listado de todas las entradas de la temática &#8220;Sin temática&#8221; podrían ser como <code>/temas/sin-tematica</code> en vez de <code>/category/sin-tematica</code>."
 
 #: wp-admin/widgets.php:70
 msgid "Many themes show some sidebar widgets by default until you edit your sidebars, but they are not automatically displayed in your sidebar management tool. After you make your first widget change, you can re-add the default widgets by adding them from the Available Widgets area."

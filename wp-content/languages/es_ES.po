@@ -1896,7 +1896,7 @@ msgstr "Leyenda del adjunto."
 
 #: wp-includes/option.php:1908
 msgid "Default post category."
-msgstr "Categoria de entrada por defecto"
+msgstr "Temática de entrada por defecto"
 
 #: wp-includes/option.php:1834
 msgid "Site tagline."
