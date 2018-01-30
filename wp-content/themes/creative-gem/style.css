@@ -12,7 +12,6 @@ Tags: right-sidebar, custom-background, custom-header, custom-menu, footer-widge
 
 
 html {
-    font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
@@ -144,8 +143,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, monospace;
-    font-size: 1em;
+   font-size: 1em;
 }
 
 button,
@@ -253,7 +251,6 @@ h6 {
     font-weight: bold;
     margin-bottom: 12px;
     color: #000;
-    font-family: 'Roboto', 'helvetica neue', helvetica, arial, sans-serif;
 }
 
 h1 {
@@ -307,7 +304,7 @@ address {
 
 pre {
     background: #eee;
-    font-family: "Courier 10 Pitch", Courier, monospace;
+
     font-size: 15px;
     font-size: 0.9375rem;
     line-height: 1.6;
@@ -321,7 +318,7 @@ code,
 kbd,
 tt,
 var {
-    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+
     font-size: 15px;
     font-size: 0.9375rem;
 }
@@ -444,7 +441,6 @@ textarea {
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-    font-family: "creative-gem";
     font-style: normal;
     font-weight: normal;
     speak: none;
@@ -687,7 +683,7 @@ a#pull {
     text-decoration: none;
     padding: 0 20px;
     line-height: 45px;
-    font-family: 'Roboto', 'helvetica neue', helvetica, arial, sans-serif;
+    
     display: block;
 }
 
@@ -836,7 +832,7 @@ a#pull {
 
 .menu-item-has-children>a:after {
     content: '\f107';
-    font-family: 'creative-gem';
+
     position: absolute;
     right: 20px;
 }
@@ -1420,7 +1416,7 @@ nav #searchform fieldset {
     border: 1px solid #cccccc;
     border-right: none;
     font-size: 14px;
-    font-family: 'Roboto', 'helvetica neue', helvetica, arial, sans-serif;
+   
 }
 
 #searchform input[type="submit"],
@@ -1432,7 +1428,7 @@ nav #searchform fieldset {
     cursor: pointer;
     transition: all 0.25s linear;
     width: 29.6%;
-    font-family: 'Roboto', 'helvetica neue', helvetica, arial, sans-serif;
+    
     border: 0;
     font-size: 13px;
     padding: 0;
@@ -2519,13 +2515,13 @@ ol.commentlist>.navigation.bottomnav {
 
 #commentform textarea {
     width: 100%;
-    font-family: inherit;
+   
     border: 1px solid #dadada;
     background: #fff;
     font-size: 14px;
     padding: 5px 10px 10px 10px;
     line-height: 25px;
-    font-family: georgia;
+    
     font-style: italic;
 }
 
@@ -3394,7 +3390,6 @@ img.custom-logo {
         display: inline-block;
         position: absolute;
         right: 2%;
-        font-family: "creative-gem";
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
