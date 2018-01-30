@@ -2163,7 +2163,7 @@ footer .wp_review_tab_widget_content a {
     color: #361632;
 }
 
-.article a, .breadcrumb a, #commentform a {
+.article a, #commentform a {
     color: #542189;
 }
 
