@@ -2167,9 +2167,7 @@ footer .wp_review_tab_widget_content a {
     color: #542189;
 }
 
-.breadcrumb a {
-    color: #D2D3C6;
-}
+
 
 .upper-widgets-grid:nth-child(1){
 	background: url(http://portal-p3-mvp.herokuapp.com/wp-content/uploads/feminismo.jpg);
@@ -3652,4 +3650,8 @@ img.custom-logo {
 
 .single-post a {
     color: #542189;
+}
+
+.breadcrumb a {
+    color: #D2D3C6;
 }
