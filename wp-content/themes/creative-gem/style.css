@@ -359,11 +359,6 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    background: #eee;
-    /* Fallback for when there is no custom background color defined. */
-}
-
 blockquote:before,
 blockquote:after {
     content: ""
@@ -940,7 +935,7 @@ span.sticky-post {
     -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
     -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
     -o-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
-    background: #fff;
+    background: #d2d3c6;
 }
 
 #content {
@@ -2056,7 +2051,7 @@ footer .wp_review_tab_widget_content a {
     float: left;
     padding: 0;
     width: 100%;
-    background: #fff;
+    background: #D2D3C6;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
     -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
     -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
@@ -2126,7 +2121,7 @@ footer .wp_review_tab_widget_content a {
     clear: both;
     width: 100%;
     padding: 20px 30px;
-    background: #fff;
+    background: #d2d3c6;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
     -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
     -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
@@ -2295,7 +2290,7 @@ textarea:focus {}
     clear: both;
     width: 100%;
     padding: 20px 30px;
-    background: #fff;
+    background: #d2d3c6;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
     -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
     -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
@@ -2309,7 +2304,7 @@ textarea:focus {}
     clear: both;
     box-sizing: border-box;
     padding: 20px 30px;
-    background: #fff;
+    background: #d2d3c6;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
     -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
     -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
