@@ -79,6 +79,8 @@
 					<?php simple_breadcrumb(); ?>
 				</div>
 
+			   <?php if ( is_front_page() ) {?>
+
 				<div class="container">
 							<div class="upper-widgets-grid-wrapper">
 									<?php
@@ -99,4 +101,5 @@
 										<?php } ?>
 							</div>
 						</div>
+					<?php } ?>
 
