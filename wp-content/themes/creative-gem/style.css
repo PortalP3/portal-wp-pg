@@ -638,7 +638,7 @@ body>header {
     z-index: 99;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     background-position: center;
-    background: url(http://portal-p3-mvp.herokuapp.com/wp-content/uploads/2018/01/bannerpp3.png);
+    background: url(http://portal-p3-mvp.herokuapp.com/wp-content/uploads/bannerpp3.png);
     background-size: cover;
 }
 
@@ -2177,19 +2177,19 @@ footer .wp_review_tab_widget_content a {
 }
 
 .upper-widgets-grid:nth-child(1){
-	background: url(http://portal-p3-mvp.herokuapp.com/wp-content/uploads/2018/01/feminismo-1.jpg);
+	background: url(http://portal-p3-mvp.herokuapp.com/wp-content/uploads/feminismo-1.jpg);
 	min-height: 290px;
 	background-size: cover;
 }
 
 .upper-widgets-grid:nth-child(2){
-	background: url(http://portal-p3-mvp.herokuapp.com/wp-content/uploads/2018/01/free-internetm-1.jpg);
+	background: url(http://portal-p3-mvp.herokuapp.com/wp-content/uploads/free-internetm-1.jpg);
 	min-height: 290px;
 	background-size: cover;
 }
 
 .upper-widgets-grid:nth-child(3){
-	background: url(http://portal-p3-mvp.herokuapp.com/wp-content/uploads/2018/01/capitalismo-1.jpg);
+	background: url(http://portal-p3-mvp.herokuapp.com/wp-content/uploads/capitalismo-1.jpg);
 	min-height: 290px;
 	background-size: cover;
 }
