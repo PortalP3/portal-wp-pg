@@ -3649,3 +3649,7 @@ img.custom-logo {
         width: 100%;
     }
 }
+
+.single-post a, a {
+    color: #542189;
+}
