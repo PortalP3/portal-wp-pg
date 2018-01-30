@@ -3655,3 +3655,15 @@ img.custom-logo {
 .breadcrumb a {
     color: #D2D3C6;
 }
+
+.wpcf7-form-control.wpcf7-submit {
+    background: #BDC598;
+    font-size: 1.3em;
+    color: #361632;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.wpcf7-form-control.wpcf7-submit:hover {
+    background: #F2FACE;
+}
