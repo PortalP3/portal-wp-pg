@@ -92,7 +92,7 @@
 											
 										 foreach  ($categories as $category) { ?>
 											<div class="upper-widgets-grid">
-												<div class="top-column-widget" id="<?php echo $category->cat_name; ?>">
+												<div class="top-column-widget" id="<?php echo strtolower($category->cat_name); ?>">
 													<h2>
 													<a href="<?php echo  get_category_link( $category->cat_ID ); ?>"><?php echo $category->cat_name ?></a>
 													</h2>
