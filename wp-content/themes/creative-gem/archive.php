@@ -44,38 +44,6 @@
 		</article>
 	<?php	} ?>
 	</div>
-
-	<!-- OTRAS TEMATICAS-->
-						
-						<div class="upper-widgets-grid-wrapper" align="center">
-						<h3>OTRAS TEMÁTICAS</h3>
-							<?php
-							$categories =  get_categories(array(
-									'parent'  => 0,
-									'hide_empty' => 0,
-									'order'    => 'DESC',
-							));
-									 
-							$currentCategory = get_queried_object();
-						 	foreach  ($categories as $category) {
-								 if ($category->cat_ID!= $currentCategory->term_id){
-								 ?>
-									<div class="upper-widgets-grid" id="<?php echo str_replace(' ', '-', strtolower($category->cat_name)); ?>">
-										<div class="top-column-widget">
-											<h2>
-												<a href="<?php echo  get_category_link( $category->cat_ID ); ?>"><?php echo $category->cat_name ?></a>
-											</h2>
-										</div>
-									</div>
-						<?php   }
-							} 
-						?>
-						</div>
-					
-			
-
-
-
 	<?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>
