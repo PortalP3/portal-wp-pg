@@ -46,7 +46,7 @@
 	</div>
 
 	<!-- OTRAS TEMATICAS-->
-					<div class="container" align="center">
+					<div class="container" align="center" >
 						<h3>OTRAS TEMÁTICAS</h3>
 						<div class="upper-widgets-grid-wrapper">
 							<?php
