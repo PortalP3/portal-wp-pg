@@ -83,6 +83,7 @@
 
 				<div class="container">
 							<div class="upper-widgets-grid-wrapper">
+								<h1 class="tematics-title">Temáticas</h1>
 									<?php
   											$categories =  get_categories(array(
 												'parent'  => 0,
