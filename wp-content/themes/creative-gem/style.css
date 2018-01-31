@@ -2169,19 +2169,19 @@ footer .wp_review_tab_widget_content a {
 
 
 
-.upper-widgets-grid:nth-child(1){
+#feminismo.upper-widgets-grid {
 	background: url(http://portal-p3-mvp.herokuapp.com/wp-content/uploads/feminismo.jpg);
 	min-height: 290px;
 	background-size: cover;
 }
 
-.upper-widgets-grid:nth-child(2){
-	background: url(http://portal-p3-mvp.herokuapp.com/wp-content/uploads/free-internetm.jpg);
+#defensa-del-internet.upper-widgets-grid{
+	background: url(http://portal-p3-mvp.herokuapp.com/wp-content/uploads/defensa-del-internet.jpg);
 	min-height: 290px;
 	background-size: cover;
 }
 
-.upper-widgets-grid:nth-child(3){
+#capitalismo.upper-widgets-grid{
 	background: url(http://portal-p3-mvp.herokuapp.com/wp-content/uploads/capitalismo.jpg);
 	min-height: 290px;
 	background-size: cover;

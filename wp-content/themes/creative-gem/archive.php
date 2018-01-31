@@ -46,7 +46,8 @@
 	</div>
 
 	<!-- OTRAS TEMATICAS-->
-					<div class="container">
+					<div class="container" align="center">
+						<h3>OTRAS TEMÁTICAS</h3>
 						<div class="upper-widgets-grid-wrapper">
 							<?php
 							$categories =  get_categories(array(
@@ -59,7 +60,7 @@
 						 	foreach  ($categories as $category) {
 								 if ($category->cat_ID!= $currentCategory->term_id){
 								 ?>
-									<div class="upper-widgets-grid">
+									<div class="upper-widgets-grid" id="<?php echo $category->cat_name; ?>">
 										<div class="top-column-widget">
 											<h2>
 												<a href="<?php echo  get_category_link( $category->cat_ID ); ?>"><?php echo $category->cat_name ?></a>
