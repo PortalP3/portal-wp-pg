@@ -3667,3 +3667,8 @@ img.custom-logo {
 .wpcf7-form-control.wpcf7-submit:hover {
     background: #F2FACE;
 }
+
+.categories-container {
+    display: flex;
+    justify-content: center;
+}
