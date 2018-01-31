@@ -47,7 +47,7 @@
 
 	<!-- OTRAS TEMATICAS-->
 						
-						<div class="upper-widgets-grid-wrapper">
+						<div class="upper-widgets-grid-wrapper" align="center">
 						<h3>OTRAS TEMÁTICAS</h3>
 							<?php
 							$categories =  get_categories(array(
