@@ -858,8 +858,8 @@ a#pull {
 /*-[ Content ]--------------------*/
 
 .article {
-    /*width: 68.58%;
-    max-width: 720px;*/
+    min-width: 100%;
+    margin-top: 75px;
     float: left;
     margin-bottom: 30px;
 }
