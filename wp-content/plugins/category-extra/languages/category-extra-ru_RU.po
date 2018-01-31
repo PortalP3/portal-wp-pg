@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-08-15 14:10+0300\n"
+"PO-Revision-Date: 2016-08-15 14:10+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: category-extra.php:80
+msgid "Settings"
+msgstr "Настройки"
+
+#: category-extra.php:202
+msgid "To see this category you need enter the password:"
+msgstr "Чтобы просмотреть категорию вы должны ввести пароль"
+
+#: category-extra.php:203
+msgid "Submit"
+msgstr "Отправить"
+
+#: category-extra.php:205
+msgid "Password not valid"
+msgstr "Пароль не верный"
+
+#: category-extra.php:473
+msgid "Sort"
+msgstr "Сортировка"
+
+#: category-extra.php:475
+msgid "Sorting category in list of categories"
+msgstr "Сортировка категории в списке категорий"
+
+#: category-extra.php:483
+msgid "Custom title tag"
+msgstr "Уникальный title тег"
+
+#: category-extra.php:485
+msgid "Name of category in the <title></title> tag"
+msgstr "Название категории в <title></title> теге"
+
+#: category-extra.php:495
+msgid "Custom description tag"
+msgstr "Уникальный тег description"
+
+#: category-extra.php:498
+msgid "Text in meta description tag. Recommended max 140 symbols"
+msgstr "Текст в meta description теге. Рекомендовано мак. 140 символов"
+
+#: category-extra.php:510
+msgid "Custom keywords tag"
+msgstr "Уникальный тег keywords"
+
+#: category-extra.php:512
+msgid "Text in meta keywords tag"
+msgstr "Текст в meta keywords теге"
+
+#: category-extra.php:523
+msgid "Custom name for public"
+msgstr "Публичное имя"
+
+#: category-extra.php:525
+msgid "Name of category for all public sections"
+msgstr "Название категории для всех публичных разделов"
+
+#: category-extra.php:535
+msgid "Top text"
+msgstr "Верхний текст"
+
+#: category-extra.php:537
+msgid "Use <?php the_category_top_text(); ?> in your template"
+msgstr "Используйте <?php the_category_top_text(); ?> в вашем шаблоне"
+
+#: category-extra.php:546
+msgid "Bottom text"
+msgstr "Нижний  текст"
+
+#: category-extra.php:548
+msgid "Use <?php the_category_bottom_text(); ?> in your template"
+msgstr "Используйте <?php the_category_bottom_text(); ?> в вашем шаблоне"
+
+#: category-extra.php:557
+msgid "Hide from"
+msgstr "Скрыть от"
+
+#: category-extra.php:568
+msgid "Guest"
+msgstr "Гость"
+
+#: category-extra.php:575
+msgid "Category name color"
+msgstr "Цвет названия категории"
+
+#: category-extra.php:577
+msgid "Add text color to category name"
+msgstr "Добавьте цвет текст в название категории"
+
+#: category-extra.php:593 category-extra.php:622 category-extra.php:663
+#: category-extra.php:728
+msgid "Select"
+msgstr "Выбрать"
+
+#: category-extra.php:595 category-extra.php:624 category-extra.php:664
+msgid "Clear"
+msgstr "Очистить"
+
+#: category-extra.php:603
+msgid "Category background color"
+msgstr "Цвет фона категории"
+
+#: category-extra.php:605
+msgid "Add background color to category name"
+msgstr "Добавить фон к названию категории"
+
+#: category-extra.php:631
+msgid "Password access"
+msgstr "Доступ по паролю"
+
+#: category-extra.php:633
+msgid "Add form with password on the category page"
+msgstr "Добавляет форму ввода пароля на страницу категории"
+
+#: category-extra.php:643
+msgid "Image"
+msgstr "Изображение"
+
+#: category-extra.php:645
+msgid "Use <?php the_category_image('','') ;?> in your template"
+msgstr "Используйте <?php the_category_image('','') ;?> в вашем шаблоне"
+
+#: category-extra.php:723
+msgid "Close"
+msgstr "Закрыть"
+
+#: category-extra.php:847 category-extra.php:899
+msgid "Category Extra"
+msgstr "Castegory Extra"
+
+#: category-extra.php:905
+msgid "Enable plugin to"
+msgstr "Включить плагин для"
+
+#: category-extra.php:923
+msgid "Enter password message"
+msgstr "Сообщение для формы пароля"
+
+#: category-extra.php:932
+msgid "Store the entered password in sec."
+msgstr "Хранить введенный пароль в сек."
+
+#~ msgid "Use <?php the_category_image() ;?> in your template"
+#~ msgstr "Используйте <?php the_category_image() ;?> в вашем шаблоне"
+
+#~ msgid "Enable Plugin to"
+#~ msgstr "Включить "
