@@ -32,8 +32,8 @@
 							<?php endif; ?>
 						<?php endif; ?>
 						<a href="#" id="pull" class="toggle-mobile-menu"><?php esc_html_e('Menu', 'creative-gem'); ?></a>
-						<!--<div class="container clear">
-							<nav id="navigation" class="primary-navigation mobile-menu-wrapper" role="navigation">
+						<div class="container clear">
+							<!-- <nav id="navigation" class="primary-navigation mobile-menu-wrapper" role="navigation">
 
 								<?php //wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'menu clearfix', 'container' => '' ) ); ?>
 								
