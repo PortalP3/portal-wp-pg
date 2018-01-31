@@ -46,9 +46,9 @@
 	</div>
 
 	<!-- OTRAS TEMATICAS-->
-					<div class="container" align="center" >
-						<h3>OTRAS TEMÁTICAS</h3>
+						
 						<div class="upper-widgets-grid-wrapper">
+						<h3>OTRAS TEMÁTICAS</h3>
 							<?php
 							$categories =  get_categories(array(
 									'parent'  => 0,
@@ -71,7 +71,7 @@
 							} 
 						?>
 						</div>
-					</div>
+					
 			
 
 
