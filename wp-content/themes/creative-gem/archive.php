@@ -60,7 +60,7 @@
 						 	foreach  ($categories as $category) {
 								 if ($category->cat_ID!= $currentCategory->term_id){
 								 ?>
-									<div class="upper-widgets-grid" id="<?php echo strtolower($category->cat_name); ?>">
+									<div class="upper-widgets-grid" id="<?php echo str_replace(' ', '-', strtolower($category->cat_name)); ?>">
 										<div class="top-column-widget">
 											<h2>
 												<a href="<?php echo  get_category_link( $category->cat_ID ); ?>"><?php echo $category->cat_name ?></a>

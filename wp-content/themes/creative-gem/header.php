@@ -89,9 +89,9 @@
 												'hide_empty' => 0,
 												'order'    => 'DESC',
 											 ));
-											
+											 
 										 foreach  ($categories as $category) { ?>
-											<div class="upper-widgets-grid" id="<?php echo strtolower($category->cat_name); ?>">
+											<div class="upper-widgets-grid" id="<?php echo str_replace(' ', '-', strtolower($category->cat_name)); ?>">
 												<div class="top-column-widget" >
 													<h2>
 													<a href="<?php echo  get_category_link( $category->cat_ID ); ?>"><?php echo $category->cat_name ?></a>
