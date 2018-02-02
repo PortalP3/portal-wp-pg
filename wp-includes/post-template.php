@@ -48,9 +48,9 @@ function the_title( $before = '', $after = '', $echo = true ) {
 	$title = $before . $title . $after;
 
 	if ( $echo )
-		echo strtoupper($title);
+		echo strtoupper($title,'utf-8');
 	else
-		return strtoupper($title);
+		return strtoupper($title,'utf-8');
 }
 
 /**

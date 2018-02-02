@@ -365,7 +365,7 @@ if ( ! function_exists( 'creative_gem_archive_post' ) ) {
         } ?>
     </span>
         <div class="post-content">
-          <?php echo esc_html(creative_gem_excerpt(50)); ?>... <a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>" rel="bookmark">Ver más/a>
+          <?php echo esc_html(creative_gem_excerpt(50)); ?>... <a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>" rel="bookmark"><b>Ver más</b></a>
         </div>
       <?php else : ?>
       <?php if (creative_gem_post_has_moretag()) : ?>
