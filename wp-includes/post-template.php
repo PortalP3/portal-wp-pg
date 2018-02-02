@@ -48,9 +48,9 @@ function the_title( $before = '', $after = '', $echo = true ) {
 	$title = $before . $title . $after;
 
 	if ( $echo )
-		echo $title;
+		echo strtoupper($title);
 	else
-		return $title;
+		return strtoupper($title);
 }
 
 /**
