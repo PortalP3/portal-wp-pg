@@ -55,7 +55,9 @@ get_header(); ?>
 							'orderby' => 'date',
 							'order'   => 'ASC',
 						 );
-						$my_query = new wp_query( $args ); if( $my_query->have_posts() ) {
+						$my_query = new wp_query( $args ); 
+						//if( $my_query->have_posts() ) {
+						if( false ) {
 							echo '<div class="related-posts"><div class="postauthor-top"><h3>'.__('Posts Relacionados', 'creative-gem').'</h3></div><div class="related-posts-wrapper">';
 							$pexcerpt=1; $j = 0; $counter = 0; 
 							while( $my_query->have_posts() ) { 
@@ -79,7 +81,11 @@ get_header(); ?>
 									<?php } ?>
 								</article><!--.post.excerpt-->
 								<?php $pexcerpt++;?>
-								<?php } echo '</div></div>'; }} wp_reset_postdata(); ?>
+								<?php } 
+								echo '</div></div>'; 
+							}
+							} 
+							wp_reset_postdata(); ?>
 
 								<!-- End Related Posts -->
 								<?php }?>  
