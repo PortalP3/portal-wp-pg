@@ -354,7 +354,7 @@ if ( ! function_exists( 'creative_gem_archive_post' ) ) {
 
 
         <h2 class="title">
-          <a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>" rel="bookmark"><?php the_title(); ?></a>
+          <a href="<?php the_permalink() ?>" style="text-transform: uppercase;" title="<?php the_title_attribute(); ?>" rel="bookmark"><?php the_title(); ?></a>
         </h2>
 
     <span class="entry-meta">
