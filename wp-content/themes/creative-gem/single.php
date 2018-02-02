@@ -25,7 +25,7 @@ get_header(); ?>
 					<div id="content" class="post-single-content box mark-links">
 					<header>
 						<!-- Start Title -->
-						<h1 class="title single-title"><?php the_title(); ?></h1>
+						<h1 class="title single-title" style="text-transform: uppercase;"><?php the_title(); ?></h1>
 						<!-- End Title -->
 						<div class="post-date-creative">Creado el <?php the_time( get_option( 'date_format' ) ); ?></div>
 
