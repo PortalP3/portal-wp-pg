@@ -21,13 +21,30 @@
 			<span><?php the_archive_title(); ?></span>
 		</h1>
 		
-		<?php if ( have_posts() ) :
+		<?php 
+		if ( have_posts() ) {
 			$creative_gem_full_posts = get_theme_mod('creative_gem_full_posts');
-			while ( have_posts() ) : the_post();
+			while ( have_posts() ) {
+				 the_post();
 				creative_gem_archive_post();
-			endwhile;
+			}
 			creative_gem_post_navigation();
-		endif; ?>
+		}else{?>
+
+<div class="post-blogs-container">
+        <div class="nothumbnail-post-content">
+   			<h2 class="title">
+	 			<a href="#" style="text-transform: uppercase;" rel="bookmark">No hay post relacionados</a>
+   			</h2>
+		<span class="entry-meta"></span>
+   		<div class="post-content"></div>
+ 
+		</div>
+</div>
+
+		<?php } 
+		?>
+
 
 	<?php
 	if ( get_the_archive_description() ) {
