@@ -34,7 +34,7 @@
 <div class="post-blogs-container">
         <div class="nothumbnail-post-content">
    			<h2 class="title">
-	 			<a href="#" style="text-transform: uppercase;" rel="bookmark">No hay post relacionados</a>
+	 			<a href="#" style="text-transform: uppercase;" rel="bookmark">No hay artículos disponibles</a>
    			</h2>
 		<span class="entry-meta"></span>
    		<div class="post-content"></div>
