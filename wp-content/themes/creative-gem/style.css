@@ -2222,7 +2222,7 @@ select {
 textarea {
     overflow: auto;
     resize: vertical;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 input:focus,
@@ -3683,5 +3683,4 @@ img.custom-logo {
 
 .wpcf7-form.demo h2 {
 	font-size: 1.5em;
-	max-width: 40%;
 }
