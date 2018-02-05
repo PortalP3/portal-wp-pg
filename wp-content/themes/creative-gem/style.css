@@ -3688,3 +3688,7 @@ img.custom-logo {
 .rating-meta{
     font-size: 1.2em;
 }
+
+.post-ratings{
+	text-align:center;
+}
