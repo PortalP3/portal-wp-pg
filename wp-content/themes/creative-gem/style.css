@@ -1032,6 +1032,7 @@ h1.title {
 .page h1.title {
     margin-bottom: 0;
     margin-top: 0;
+    font-size: 1.5em;
 }
 
 .post-info {
