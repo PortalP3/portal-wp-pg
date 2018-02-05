@@ -5,6 +5,7 @@ El proyecto está hecho con un CMS (Wordpress) deployado en Heroku. Internamente
 
 ### Items técnicos
 - CMS Wordpress (PHP): http://portal-p3-mvp.herokuapp.com/ 
+- Heroku : los deplo
 - BD: Postgres (Capa gratuita de Heroku)
 - Server: Apache
 - Control de versiones: Github: https://github.com/PortalP3/portal-wp-pg
