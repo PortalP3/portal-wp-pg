@@ -28,7 +28,7 @@ $current_rating = apply_filters( 'post_ratings_current_rating', sprintf( '%.2F /
 ?>
 
 <div class="post-ratings" data-post="<?php the_ID(); ?>">
-	
+	<h2>¿Qué te pareció el artículo?</h2>
 	<div class="rating" data-post="<?php the_ID(); ?>" data-rating="<?php echo $rating; ?>" data-readonly="<?php echo (int) ! $this->current_user_can_rate( get_the_ID() ); ?>"></div>
 
 	<div class="rating-meta">

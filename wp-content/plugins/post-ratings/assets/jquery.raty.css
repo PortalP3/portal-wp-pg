@@ -23,6 +23,8 @@
   line-height: 1;
   speak: none;
   text-transform: none;
+  font-size: 2em;
+  color: #542189;
 }
 
 .cancel-on-png:before {
